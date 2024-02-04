@@ -20,4 +20,3 @@ kafka-topics --bootstrap-server localhost:9092 --topic first_topic --describe
 # Delete a topic 
 kafka-topics --bootstrap-server localhost:9092 --topic first_topic --delete
 # (only works if delete.topic.enable=true)
-
